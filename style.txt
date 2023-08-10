@@ -1,0 +1,312 @@
+@font-face {
+  font-family: FloraniaTrial;
+  src: url(FloraniaTrial.otf);
+}
+@font-face {
+  font-family: Century;
+  src: url(DOMINIKTH.TTF);
+}
+@font-face {
+  font-family: Sherland;
+  src: url(Sherland.ttf);
+}
+
+
+  
+html{
+  max-width: 550px ;
+  min-width: 200px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+
+  background-color: #B48482 ;
+  justify-content: center;
+  max-width: 500px ;
+  min-width: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+ 
+  padding: 0;
+}
+.conteudo-principal{
+  background-color: #FFF;
+  max-width: 500px ;
+  min-width: 200px;
+  margin: auto;
+  float: left;
+  padding: 50px;
+}
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: -40%;
+}
+.title-section1{
+  margin-top: 100px;
+  font-family: FloraniaTrial;
+ color:#B48482;
+ font-size: 30px;
+ text-align: center;
+}
+.subtitle-section1{
+  font-family: Century;
+    font-size: 18px;
+    color: #B48482;
+    text-align: center;
+  }
+  .results-img{
+    margin-top: 25px;
+  }
+  .btn-section1{
+    background-color: #B48482;
+    margin-left: 20%;
+
+    width: 200px;
+
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: Century;
+    font-weight: bold;
+  
+    color: #FFF;
+    max-width: 80%;
+    height: 20px;
+    font-family: Century;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+.resultados{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn-sectionP{
+  background-color: #FFF;
+  width: 200px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: Century;
+  font-weight: bold;
+  color: #B48482;
+  max-width: 80%;
+  height: 20px;
+  font-family: Century;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  margin-left: 25%;
+
+}
+
+
+
+.cabeçalho{
+  background-color: white;
+  display:flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-around;
+  border-bottom: solid;
+  border-color: #A8A6A2;
+  border-width: 8px;
+  padding: 7%;
+  margin-left: -10px;
+  max-width: 550px;
+
+  
+}
+.cabecalho-menu {
+  display: flex;
+  gap: 20px;
+  min-width: 200px;
+  max-width: 100%;
+}
+
+.cab-menu-item {
+  font-family: Century;
+  color: #B48482;
+  font-weight: 400;
+  font-size: 10px;
+  font-weight: bold;
+  margin: auto;
+}
+.submarca{
+  width: 100%;
+}
+
+.main{
+  padding: 20px;
+  margin:auto;
+  max-width: 500px ;
+  min-width: 200px;
+}
+.conteudo-sec{
+  align-items: center;
+  max-width:400px ;
+  justify-content: center;
+  
+}
+.results-img{
+ 
+}
+
+.imgsec2{
+  min-width: 250px;
+  max-width: 300px;
+  margin-left: 15%;
+}
+.divPrincipal{
+  background-color: #E3CACA;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.icone-txt{
+  display: flex;
+  gap: 10px;
+}
+
+.procedimentos{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 80px;
+ margin-left: 30px;
+}
+.item_dir{
+  text-align: right;
+  display: flex;
+  gap: 20px;
+}
+.item_esq{
+  text-align: left;
+  display: flex;
+  gap: 20px;
+}
+.descriçao{
+  max-width: 200px;
+  color: white;
+  font-family: Century;
+  margin-top: 25px;
+}
+.descriçao p{
+  font-size:12px;
+}
+
+.title-proc{
+  text-align: center;
+  color: #FFF;
+  font-family:FloraniaTrial;
+  margin-top: 10px;
+}
+
+.contato{
+  width: 350px;
+  border-radius: 15px;
+  margin-left: 5%;
+  margin-top: 2%;
+  padding: 15px;
+}
+.contato h1{
+  text-align: center;
+}
+.icone-txt h4{
+  color:#754847;
+  font-family: Century;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.btn-sectionC{
+  background-color: #B48482;
+  width: 50px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: Century;
+  font-weight: bold;
+  color:#FFF ;
+  font-family: Century;
+  font-size: 15px;
+  font-weight: bold;
+  justify-content: center;
+
+  
+}
+.img-cont img{
+  border:solid;
+  border-radius: 15%;
+  border-color: #B48482;
+  margin-top: 40px;
+}
+
+
+@media screen and (min-width: 480px){
+  body{
+    justify-content: center;
+    margin-left: 85%;
+    min-width: 1200px;
+  }
+.cabeçalho{
+  padding: 0;
+}
+  .title-proc{
+    margin-left: -60%;
+  }
+  .conteudo-principal{
+    margin-left: 1.5%;
+    margin-top: 5px;
+  }
+ 
+ .conteudo-principal-escrito{
+  margin-top: 0.2%;
+ }
+ .title-section1{
+  font-size: 50px;
+  padding: 12px;
+  margin-top: -15px;
+ }
+ .subtitle-section1{
+    font-size: 25px;
+ }
+
+ .imgsec2{
+  min-width: 500px;
+  margin-left: 0.2%;
+ }
+
+ .cab-menu-item{
+  font-size: 15px ;
+ }
+ .btn-section1{
+  margin-left: 25%;
+ }
+.title-proc{
+  margin-left: -65%;
+}
+ .btn-sectionP{
+    margin-left: -25%;
+ }
+
+ .contato h1{
+  margin-left: 5%;
+ }
+}
